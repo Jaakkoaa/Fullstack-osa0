@@ -1,0 +1,5 @@
+nappia painetaan ja kirjoitettu muistiinpano : 
+
+selain->selaimen ohjelmalogiikka: HTTP POST new_note_spa
+
+selaimen ohjelmalogiikka lisää uuden muistiinpanon ja luo muistiinpanot uudestaan sivulle

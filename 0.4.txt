@@ -1,0 +1,43 @@
+
+
+nappia painetaan ja kirjoitettu muistiinpano kulkee selaimesta palvelimelle: 
+
+selain->palvelin: HTTP POST new_note
+
+palvelin->selain: redirect to https://studies.cs.helsinki.fi/exampleapp/notes
+
+
+
+selain pyytää palvelimelta notes.html tiedostoa:
+
+selain->palvelin: HTTP GET https://studies.cs.helsinki.fi/exampleapp/notes
+
+palvelin->selain: HTML koodi
+
+
+
+selain pyytää palvelimelta main.css tiedostoa
+
+selain->palvelin: HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.css
+
+palvelin->selain: main.css
+
+
+selain pyytää palvelimelta main.js tiedostoa
+
+selain->palvelin: HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.js
+
+palvelin->selain: main.js
+
+
+selain pyytää palvelimelta json dataa jossa on aluksi lähetetty note
+
+selain->palvelin: HTTP GET https://studies.cs.helsinki.fi/exampleapp/data.json
+
+palvelin->selain: data.json 
+
+
+
+selaimen javascrpt luo muistiinpanot näytölle
+
+

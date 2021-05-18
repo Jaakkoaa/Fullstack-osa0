@@ -1,0 +1,32 @@
+selain pyytää palvelimelta spa.html tiedostoa:
+
+selain->palvelin: HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa
+
+palvelin->selain: HTML koodi
+
+
+selain pyytää palvelimelta main.css tiedostoa:
+
+selain->palvelin: HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.css
+
+palvelin->selain: main.css
+
+
+selain pyytää palvelimelta spa.js tiedostoa:
+
+selain->palvelin: HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa.js
+
+palvelin->selain: spa.js
+
+
+selain pyytää palvelimelta json dataa:
+
+selain->palvelin: HTTP GET https://studies.cs.helsinki.fi/exampleapp/data.json
+
+palvelin->selain: json data 
+
+
+palvelin luo muistiinpanot näytölle javascriptillä
+
+
+
